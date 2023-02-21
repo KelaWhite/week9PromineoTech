@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seasons - Poetry of Change</title> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md py-0 fixed-top">
+      <a href="index.html" class="navbar-brand">SEASONS</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navLinks">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="" class="nav-link">SPRING</a>
+          </li>
+          <li class="nav-item">
+            <a href="summer.html" class="nav-link">SUMMER</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">FALL</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">WINTER</a>            
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <section class="container-fluid px-0">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div id="headingGroup" class="text-center d-none d-lg-block mt-5">
+            <h1><span>❊</span><br>Poetry<br><span>✹</span><br>of<br><span>✾</span><br>Change<br><span>❄︎</span></h1>
+          </div>  
+        </div>
+      <div class="col-lg-6 mt-5">
+        <img class="img-fluid" src="images/season.jpeg" alt="">
+      </div>
+      </div>
+    </section>
+
+    <section class="container-fluid px-0">
+<!--SPRING-->
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+          <img class="img-fluid" src="images/spring.jpg" alt="Photo by Alexander Grey on Unsplash">
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center">
+            <div class="col-10 stylingStuff mb-5 mb-md-0">
+              <h2><a href="">SPRING</a></h2>
+              <h1 class="d-none d-lg-inline">❊</h1>
+              <p>"..And we will build a cottage there<br>Beside an open glade,<br>
+              With black-ribbed blue-bells blowing near,<br>And ferns that never fade."</p>
+              <p>--After the Winter<br>Claude McKay</p>
+            </div>
+          </div>  
+        </div>
+      </div>
+<!--SUMMER-->
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-2">
+          <img class="img-fluid" src="images/summer.jpg" alt="Photo by Elina Okolit on Unsplash">
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-1">
+          <div class="row justify-content-center">
+            <div class="col-10 stylingStuff mb-5 mb-md-0">
+              <h2><a href="summer.html">SUMMER</a></h2>
+              <h1 class="d-none d-lg-inline">✹</h1>
+              <p>"..And we will build a cottage there<br>Beside an open glade,<br>
+              With black-ribbed blue-bells blowing near,<br>And ferns that never fade."</p>                <p>--After the Winter<br>Claude McKay</p>
+            </div>
+          </div>  
+        </div>
+      </div>
+<!--FALL-->
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+          <img class="img-fluid" src="images/fall.jpg" alt="Photo by Alexander Grey on Unsplash">
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center">
+            <div class="col-10 stylingStuff mb-5 mb-md-0">
+              <h2><a href="">FALL</a></h2>
+              <h1 class="d-none d-lg-inline">✾</h1>
+              <p>"..And we will build a cottage there<br>Beside an open glade,<br>
+              With black-ribbed blue-bells blowing near,<br>And ferns that never fade."</p>                <p>--After the Winter<br>Claude McKay</p>
+            </div>
+          </div>  
+        </div>
+      </div>
+<!--WINTER-->
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-2">
+          <img class="img-fluid" src="images/winter.jpg" alt="Photo by Alexander Grey on Unsplash">
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-1">
+          <div class="row justify-content-center">
+            <div class="col-10 stylingStuff mb-5 mb-md-0">
+              <h2><a href="">WINTER</a></h2>
+              <h1 class="d-none d-lg-inline">❄︎</h1>
+              <p>"..And we will build a cottage there<br>Beside an open glade,<br>
+              With black-ribbed blue-bells blowing near,<br>And ferns that never fade."</p>                <p>--After the Winter<br>Claude McKay</p>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+    
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script> 
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script>
+      $(window).scroll(function() {
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+      });
+    </script>
+  </body>
+</html>
